@@ -28,25 +28,12 @@ I break things (ethically) to make them stronger. 🔥
 
 ---
 
-## 🔥 Future Enhancements  
-
-⚡ **Glitch Effects** – Text distortion & cyber-glow animations.  
-💻 **Hacker Terminal UI** – Fake console where users can type `whoami`.  
-🕵️‍♂️ **Bug Bounty & CTF Writeups** – Coming soon!  
-
-### 🎬 **Preview Idea**  
-*(Consider adding a hacker-style animated GIF!)*  
-
-![Glitch Effect](https://media.giphy.com/media/l1J9EdzfOSgfyueLm/giphy.gif)  
-
----
-
 ## 📬 Connect With Me  
 
-👨‍💻 **Website:** [cyberdhruv.vercel.app](https://cyberdhruv.vercel.app/)  
-🐦 **Twitter:** [@yourhandle](https://twitter.com/)  
-💼 **LinkedIn:** [Dhruv Prajapati](https://www.linkedin.com/in/)  
-🎯 **TryHackMe:** [yourTHMprofile](https://tryhackme.com/)  
+🌐 **Website:** [cyberdhruv.vercel.app](https://cyberdhruv.vercel.app/)  
+🐦 **X (Twitter):** [@cyberdhruv](https://x.com/cyberdhruv)  
+💼 **LinkedIn:** [dpraj](https://www.linkedin.com/in/dpraj/)  
+🎯 **TryHackMe:** [dpraj](https://tryhackme.com/p/dpraj)  
 🛠 **GitHub:** [dpraj611](https://github.com/dpraj611)  
 
 ---
