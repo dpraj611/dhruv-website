@@ -1,7 +1,12 @@
-# ⚡ CyberDhruv - Personal Portfolio  
+<h1 align="center">⚡ CyberDhruv - Personal Portfolio ⚡</h1>
 
-Welcome to **CyberDhruv**, my digital hub for all things **penetration testing, red teaming, and cybersecurity**.  
-I break things (ethically) to make them stronger. 🔥  
+<p align="center">
+  <img src="https://media.giphy.com/media/l1J9EdzfOSgfyueLm/giphy.gif" width="600" alt="Glitch Effect">
+</p>
+
+### 👾 Welcome to **CyberDhruv** 👾  
+
+💀 Breaking security to make it stronger. Red teaming, penetration testing, and ethical hacking—this is my world. 💀  
 
 🚀 **Live Site:** [cyberdhruv.vercel.app](https://cyberdhruv.vercel.app/)  
 🛠 **Tech Stack:** Vite + React + TailwindCSS  
@@ -19,10 +24,10 @@ I break things (ethically) to make them stronger. 🔥
 
 ## 🎨 Tech Stack  
 
-| Tech | Purpose |
-|------|---------|
-| **Vite + React** | Fast and efficient frontend 🚀 |
-| **TailwindCSS** | Sleek styling with a cyberpunk touch 🎨 |
+| ⚡ Tech | 🚀 Purpose |
+|--------|-----------|
+| **Vite + React** | Fast and efficient frontend framework ⚡ |
+| **TailwindCSS** | Sleek styling with a cyberpunk aesthetic 🎨 |
 | **TypeScript** | Because security starts with type safety 🔐 |
 | **Framer Motion / GSAP** | Smooth animations & interactions 🎭 |
 
