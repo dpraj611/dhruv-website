@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: #22d3ee;
+  color: black;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22d3ee;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
+}
+
+/* Grid pattern background */
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, #22d3ee20 1px, transparent 1px),
+    linear-gradient(to bottom, #22d3ee20 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Social icon hover effects */
+.social-icon-link {
+  @apply text-gray-400 hover:text-cyan-400 transition-colors relative;
+}
+
+.social-icon-link::after {
+  content: '';
+  @apply absolute w-full h-full top-0 left-0 bg-cyan-400 filter blur-xl opacity-0 transition-opacity;
+}
+
+.social-icon-link:hover::after {
+  @apply opacity-20;
+}
+
+/* Glitch effect */
+.glitch-container {
+  position: relative;
+}
+
+.glitch-text {
+  position: relative;
+  animation: glitch 5s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #22d3ee, -0.05em -0.025em 0 #a855f7;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  2% {
+    text-shadow: 0.05em 0 0 #22d3ee, -0.05em -0.025em 0 #a855f7;
+    clip-path: polygon(0 5%, 100% 5%, 100% 95%, 0 95%);
+  }
+  4% {
+    text-shadow: -0.05em -0.025em 0 #22d3ee, 0.025em 0.025em 0 #a855f7;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  6% {
+    text-shadow: -0.05em -0.025em 0 #22d3ee, 0.025em 0.025em 0 #a855f7;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  8% {
+    text-shadow: -0.05em -0.025em 0 #22d3ee, 0.025em 0.025em 0 #a855f7;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  9% {
+    text-shadow: -0.05em -0.025em 0 #22d3ee, 0.025em 0.025em 0 #a855f7;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  10% {
+    text-shadow: -0.05em -0.025em 0 #22d3ee, 0.025em 0.025em 0 #a855f7;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  100% {
+    text-shadow: none;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
