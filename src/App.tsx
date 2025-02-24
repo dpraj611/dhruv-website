@@ -184,13 +184,13 @@ function App() {
                   sequence={[
                     'Dhruv Prajapati',
                     1000,
-                    'Penetration Tester',
+                    'Cybersecurity Enthusiast',
                     1000,
-                    'Red Team Specialist',
+                    'Aspiring Penetration Tester',
                     1000,
                   ]}
                   wrapper="span"
-                  speed={50}
+                  speed={40}
                   repeat={Infinity}
                   className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500"
                 />
@@ -347,7 +347,7 @@ function App() {
               Interested in collaborating or have a security project in mind? Let's connect!
             </p>
             <a
-              href="mailto:contact@dhruvprajapati.com"
+              href="mailto:praj.dhruv6@gmail.com"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-500 text-black rounded-lg hover:from-cyan-400 hover:to-purple-400 transition-all transform hover:scale-105"
             >
               <Mail className="w-5 h-5 mr-2" />
